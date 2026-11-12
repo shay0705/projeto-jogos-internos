@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Turmas - Jogos Internos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h2>Jogos Internos IFAL</h2>
+    <a href="login.html" class="btn btn-secondary">Sair</a>
+  </header>
+
+  <nav>
+    <a href="turma.html">Turmas</a>
+    <a href="atletas.html">Atletas</a>
+    <a href="vit_turma.html">Vitórias por Turma</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h3>Cadastrar Nova Turma</h3>
+      <div class="form-group">
+        <label>Nome da Turma:</label>
+        <input type="text" placeholder="Ex: 2º ano A - Desenvolvimento de Sistemas">
+      </div>
+      <button type="button">Salvar Turma</button>
+    </div>
+
+    <div class="card">
+      <h3>Turmas Cadastradas</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>matricula</th>
+            <th> Turma</th>
+            <th>curso</th>
+            <th>deletar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>1º ano A</td>
+            <td>Desenvolvimento de sistemas</td>
+            <td><button type="button" class="btn-danger">Excluir</button></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2º ano A</td>
+            <td>eletrotécnica</td>
+            <td><button type="button" class="btn-danger">Excluir</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
